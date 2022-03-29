@@ -2,7 +2,7 @@
 # My Zsh Config
 #
 ### +++++++++++ +++++++++++ +++++++++++ +++++++++++ +++++++++++ +++++++++++
-###                            Daily shortcut
+###                            Daily shortcut ( alias )
 ### +++++++++++ +++++++++++ +++++++++++ +++++++++++ +++++++++++ +++++++++++
 alias cs=cowsay
 alias nf=neofetch
@@ -23,8 +23,8 @@ alias s="source ~/.config/zsh/init.zsh"
 alias ls="ls --color"
 autoload -U colors && colors
 
-# prompt display
-# eval "$(starship init zsh)"
+# git completion library
+autoload -Uz compinit && compinit
 
 ### +++++++++++ +++++++++++ +++++++++++ +++++++++++ +++++++++++ +++++++++++
 ###                          Environment ( Path )
