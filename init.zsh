@@ -20,7 +20,7 @@ alias src="scrot -s ~/Pictures/screenshot.jepg"
 alias n="nvim ~/.config/nvim/init.vim"
 alias z="nvim ~/.config/zsh/init.zsh"
 alias s="source ~/.config/zsh/init.zsh"
-alias xc="xclip -sel c < ~/.gitToken"
+alias rars="java -jar -Dsun.java2d.uiScale=2 ~/riscv/rars.jar &"
 
 # output color 
 alias ls="ls --color"
